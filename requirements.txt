@@ -1,0 +1,21 @@
+# Core LangChain packages
+langchain>=0.3.26
+langchain-core>=0.3.69
+langchain-community>=0.3.27
+langgraph>=0.5.3
+
+# LangChain integrations
+langchain-google-genai>=2.1.8
+langchain-openai>=0.3.28
+langchain-huggingface>=0.3.0
+langchain-tavily>=0.2.10
+langchain-chroma>=0.2.4
+
+# ML and data processing
+sentence-transformers>=5.0.0
+beautifulsoup4>=4.13.4
+
+# Development and utilities
+python-dotenv>=1.1.1
+ipython>=9.4.0
+typing-extensions>=4.14.1 
