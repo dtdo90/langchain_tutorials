@@ -1,3 +1,8 @@
 *.png
 pyproject.toml
 main.py
+.env
+.venv
+.DS_Store
+uv.lock
+.python-version
