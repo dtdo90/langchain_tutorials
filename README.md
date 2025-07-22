@@ -39,3 +39,15 @@ TAVILY_API_KEY=your_tavily_api_key_here
 
 ```
 
+## Enabling Automatic Tracing with LangSmith
+
+To enable automatic tracing of your LangChain workflows with LangSmith, set the following environment variables in your shell or in a `.env` file:
+
+```
+LANGSMITH_API_KEY=your_langsmith_api_key
+LANGSMITH_PROJECT=your_project_name
+LANGSMITH_TRACING=true
+```
+
+Once set, all supported workflows will be automatically traced and visible in your LangSmith dashboard.
+

@@ -14,7 +14,6 @@ from langgraph.prebuilt import ToolNode, tools_condition
 from langgraph.graph import END
 from dotenv import load_dotenv
 
-
 # load env keys
 load_dotenv()
 

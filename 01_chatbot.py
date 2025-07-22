@@ -1,5 +1,4 @@
 from typing import Sequence
-
 from langchain_core.messages import BaseMessage, AIMessage, HumanMessage, trim_messages
 from langgraph.graph.message import add_messages
 from langgraph.graph import START, StateGraph
@@ -66,8 +65,7 @@ print("Graph compiled successfully!")
 config={"configurable": {"thread_id": "taido"}}
 
 if __name__=="__main__":
-    print("Enter your language (or 'exit' to quit)")
-    language=input(">> ")
+    language=input("Enter your language (or 'exit' to quit): ")
     print("Enter your query (or 'exit' to quit)")
     while True:
         query=input(">> ")
